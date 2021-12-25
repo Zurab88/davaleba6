@@ -2,39 +2,47 @@
     font-size: 18px;
     text-align: center;
     padding: 10px 0px;
+    width: 1290px;
 }
 .conteiner {
     background-color: #56836F;
     margin: 0px 40px;
     margin-bottom: 30px;
     border: 4px;
+    border-style: solid;
     box-sizing: border-box;
     border-color: #006837;
     padding-left: 70px;
     padding-right: 55px;
+    width: 1290px;
 }
 .HeadDiv {
     display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    word-spacing: 25px;
 }
 .HDRbelow {
+    display: inline-block;
     color: #FFFFFF;
     font-size: 48px;
     display: inline-block;
-    padding-top: 25px;
-    padding-left: 175px;
+    padding-top: 55px;
+    padding-left: 115px;
     padding-right: 65px;
+    width: 775px;
 }
 .IconImg {
-    display: inline-block;
     width: 200px;
     height: 150px;
     float: right;
-    padding-top: 25px;
-    padding-right: 55px;
+    padding-top: 55px;
     padding-bottom: 65px;
 }
 .artc-section {
-    width: 1400px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 355px 355px 355px;
 }
 .artcleIMG {
     width: 150px;
@@ -44,9 +52,10 @@
     display: inline-block;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 610px;
-    height: 355;
+    width: 90%;
+    height: 90%;
     padding: 20px 20px;
+    padding-bottom: 0px;
 }
 .article1 .artcleIMG {
     float: right;
@@ -63,28 +72,46 @@
     display: inline-block;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 520px;
-    height: 355;
+    width: 93%;
+    height: 90%;
     padding: 20px 20px;
+    padding-bottom: 0px;
+    border-right: 60px;
 }
 .article2 .artcleIMG {
     float: left;
     padding-right: 20px;
-    padding-left: 20px;
     padding-bottom: 40px;
 }
 .article3 {
+    display: flex;
+    justify-content: left;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 610px;
-    height: 355;
+    width: 90%;
+    height: 90%;
     padding: 20px 20px;
+    padding-bottom: 0px;
+    margin-top: 25px;
 }
 .article3 .artcleIMG {
+    float: right;
     object-fit: cover;
     padding-right: 20px;
     padding-left: 20px;
 }
-.p3text {
-    display: flex;
+.article4 {
+    display: inline-block;
+    background-color: #FCEE21;
+    vertical-align: top;
+    width: 93%;
+    height: 183%;
+    padding: 20px 20px;
+    padding-bottom: 0px;
+    margin-top: 25px;
+}
+.article4 .artcleIMG {
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 40px;
 }
