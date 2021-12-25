@@ -85,6 +85,7 @@
 }
 .article3 {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: left;
     background-color: #FCEE21;
     vertical-align: top;
@@ -96,7 +97,6 @@
 }
 .article3 .artcleIMG {
     float: right;
-    object-fit: cover;
     padding-right: 20px;
     padding-left: 20px;
 }
