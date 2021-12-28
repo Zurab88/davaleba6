@@ -15,6 +15,7 @@
     padding-left: 70px;
     padding-right: 55px;
     width: 1290px;
+    height: 1400px;
 }
 .HeadDiv {
     display: inline-block;
@@ -41,6 +42,7 @@
 }
 .artc-section {
     display: grid;
+    grid-gap: 2%;
     grid-template-columns: 55% 45%;
     grid-template-rows: 355px 355px 355px;
 }
@@ -52,13 +54,14 @@
     display: inline-block;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 90%;
-    height: 90%;
+    /* width: 90%;
+    height: 90%; */
     padding: 20px 20px;
     padding-bottom: 10px;
 }
 .article1 .artcleIMG {
     float: right;
+    clear: both;
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 20px;
@@ -71,10 +74,11 @@
     display: inline-block;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 93%;
-    height: 90%;
+    clear: both;
+    /* width: 93%;
+    height: 90%; */
     padding: 20px 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-left: 40px;
     border-right: 60px;
 }
@@ -93,14 +97,14 @@
     justify-content: left;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 90%;
-    height: 90%;
+    /* width: 90%;
+    height: 90%; */
     padding: 20px 20px;
     padding-bottom: 0px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 .article3 .artcleIMG {
-    float: right;
+    /* float: right; */
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -108,12 +112,13 @@
     display: inline-block;
     background-color: #FCEE21;
     vertical-align: top;
-    width: 93%;
-    height: 183%;
     padding: 20px 20px;
     padding-bottom: 0px;
     padding-left: 40px;
-    margin-top: 25px;
+    /* margin-top: 25px; */
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
 }
 .article4 .artcleIMG {
     float: left;
