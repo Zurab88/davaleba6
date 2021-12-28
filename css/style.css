@@ -78,7 +78,6 @@
     /* width: 93%;
     height: 90%; */
     padding: 20px 20px;
-    padding-bottom: 20px;
     padding-left: 40px;
     border-right: 60px;
 }
@@ -100,7 +99,7 @@
     /* width: 90%;
     height: 90%; */
     padding: 20px 20px;
-    padding-bottom: 0px;
+    /* padding-bottom: 0px; */
     /* margin-top: 25px; */
 }
 .article3 .artcleIMG {
